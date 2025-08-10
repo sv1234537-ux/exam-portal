@@ -71,10 +71,10 @@ function App() {
 
   const handleLogin = (name, password) => {
     const validStudents = {
-      'Utkarsha': 'utkarsha123',
-      'Prankur': 'prankur123'
+      'Utkarsha': '999999999',
+      'Prankur': '999999999'
     };
-    const adminPassword = 'admin123';
+    const adminPassword = 'Rahul@admin';
 
     if (name === 'Admin' && password === adminPassword) {
       const mockAdmin = { uid: 'admin', displayName: 'Admin' };
